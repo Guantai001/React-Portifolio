@@ -1,7 +1,31 @@
-import React from 'react';
+import React,{useEffect, useRef} from 'react';
 import photos from './photos/mee-removebg-preview.png';
+import Typed from "typed.js"
 
 function Home(){
+
+    const el = useRef(null);
+
+    useEffect(() => {
+      const typed = new Typed(el.current, {
+        strings: ["Android Developer", "Front-End Developer"], // Strings to display
+        // Speed settings, try diffrent values untill you get good results
+        startDelay: 300,
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 100
+      });
+  
+      // Destropying
+      return () => {
+        typed.destroy();
+      };
+    }, []);
+  
+
+
+
+
     return(
        
             <section class="home bd-grid" id="home">
@@ -16,7 +40,8 @@ function Home(){
         Guantai JohnPaul
     </span>
     <br/>
-    Full Stack Developer
+
+  <div class="text-3"><span ref={el}></span></div>
 </h1>
 
  </div>
@@ -26,7 +51,7 @@ function Home(){
 
              <div class="home__social">
                     <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
                     <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
