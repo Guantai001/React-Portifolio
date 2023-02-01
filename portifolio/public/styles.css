@@ -10,6 +10,7 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  --yellow-color:#F7B500;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -75,7 +76,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--yellow-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -90,7 +91,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--yellow-color);
 }
 
 .section {
@@ -158,7 +159,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--yellow-color);
 }
 
 .nav__logo {
@@ -179,7 +180,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--yellow-color);
 }
 
 /*=== Show menu ===*/
@@ -201,10 +202,13 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  
+  text-align: left;
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: var(--yellow-color);
+  padding-left: 2px;
 }
 
 .home__social {
@@ -216,11 +220,11 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--yellow-color);
 }
 
 .home__social-icon:hover {
-  color: var(--first-color);
+  color: var(--yellow-color);
 }
 
 .home__img {
@@ -231,7 +235,7 @@ img {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  fill: var(--yellow-color);
 }
 
 .home__blob-img {
@@ -241,12 +245,13 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--yellow-color);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
+  float: left;
 }
 
 .button:hover {
