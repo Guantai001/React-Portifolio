@@ -239,6 +239,15 @@ img {
 .home__social-icon:hover {
   color: var(--yellow-color);
 }
+/* homeSocial Dark mode */
+#dark .home__social-icon {
+  color: #fff;
+}
+
+#dark .home__social-icon:hover {
+  color: #F7B500
+}
+
 
 .home__img {
   position: absolute;
@@ -269,6 +278,12 @@ img {
 
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+/* button DArk Mode */
+#dark .button:hover{
+ background-color: #fff;
+ color: #000000;
 }
 
 /* ===== ABOUT =====*/
@@ -556,6 +571,7 @@ img {
 .sub-title {
   font-family: "Audiowide", sans-serif ;
 }
+
 #about {
   padding: 80px 0;
   color: #000000;
@@ -614,7 +630,7 @@ img {
   content: '';
   width: 0;
   height: 3px;
-  background: #F1B24A;
+  background: #F7B500;
   position: absolute;
   left: 0;
   bottom: -8px;   
@@ -648,6 +664,15 @@ img {
   display: block;
   text-align: start;
 }
+
+/* dark theme about */
+#dark #about{
+  color: #fff;
+}
+#dark #about .tab-titles {
+  color: #F7B500;
+}
+
 
 /* 
  */
@@ -769,8 +794,8 @@ img {
       display:block;
       margin: 50px auto;
       width: fit-content;
-      background: #F1B24A;
-      border: 1px solid #F1B24A;
+      background: #F7B500;
+      border: 1px solid #F7B500;
       padding: 14px 50px;
       border-radius: 7px;
       text-decoration: none;
@@ -778,11 +803,17 @@ img {
       transition: background 0.5s;
   
   }
-  .btn:hover {
-      background: #ffffff;
-      border: 3px solid #F1B24A;
-      
-  }
+  
+
+#dark .btn:hover{
+  background-color: #ffffff;
+  color: #000000;
+ 
+
+}
+
+
+
 
       /* My contacts */
 
@@ -814,12 +845,20 @@ img {
    transition:transform 0.5s;
 }
 .social-icons a:hover{
-    color:#F1B24A;
+    color:#F7B500;
     transform: translateY(-5px);
 }
+/* social icona in darl mode */
+#dark .social-icons a{
+  color: #fff;
+}
+#dark .social-icons a:hover{
+  color: #F7B500
+}
+
 .btn.btn2 {
    display: inline-block;
-   background-color:#F1B24A;
+   background-color:#F7B500;
 }
 .contact-right form{
     width: 100%;
@@ -829,7 +868,7 @@ img {
 form input, form textarea{
      width: 100%;
      border-radius: 5px;
-     border-color: #F1B24A;
+     border-color: #F7B500;
      outline: none;
      background: rgb(197, 196, 196);
      padding: 15px;
@@ -857,5 +896,16 @@ form .btn2{
     
 }
 .copyright i{
-    color: #F1B24A;
+    color: #F7B500;
 }
+
+#light{
+  background-color: rgb(255, 255, 255);
+}
+
+
+#dark{
+  background-color: #2d2e32;
+  color: white;
+}
+

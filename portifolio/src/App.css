@@ -1,13 +1,19 @@
 .App {
   text-align: center;
 }
-#light{
-  background-color: aliceblue;
+/* #light{
+  background-color: rgb(255, 255, 255);
 }
 
+
 #dark{
-  background-color: #282c34;
+  background-color: #2d2e32;
+  color: white;
 }
+#dark home__social-icon {
+
+  color: white;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
