@@ -1,6 +1,7 @@
 import React,{useEffect, useRef} from 'react';
 import photos from './photos/mee-removebg-preview.png';
 import Typed from "typed.js"
+import NavBar from './NavBAr';
 
 function Home(){
 
@@ -27,6 +28,8 @@ function Home(){
 
 
     return(
+      <>
+      <NavBar/>
        
             <section class="home bd-grid" id="home">
                 <div class="home__data">
@@ -76,7 +79,7 @@ function Home(){
                 </div>
             </section>
       
-        
+        </>
     )
 }
 

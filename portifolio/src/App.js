@@ -24,7 +24,7 @@ function App() {
 
 
     <div className="App" id={theme}>
-      <NavBar/>
+     
       
       <Home/>
       <div className="switch">

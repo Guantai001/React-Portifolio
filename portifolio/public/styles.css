@@ -909,3 +909,18 @@ form .btn2{
   color: white;
 }
 
+/* NavBAr DarkMode */
+
+#dark .l-header{
+  background-color: #2d2e32;
+  color:#F7B500;
+  
+}
+
+#dark .nav__logo{
+  color:#ffffff;
+}
+
+#dark .nav__link{
+  color:#ffffff;
+}
