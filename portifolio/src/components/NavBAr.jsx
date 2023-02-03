@@ -2,6 +2,16 @@ import React from 'react';
 import ReactSwitch from 'react-switch';
 
 function NavBar({theme, toggleTheme}){
+    //when the tab is clicked, it will be active and the others will be inactive
+    const activeTab = (e) => {
+        const navLinks = document.querySelectorAll('.nav__link');
+        navLinks.forEach((link) => {
+            link.classList.remove('active');
+        });
+        e.target.classList.add('active');
+    }
+
+ 
     return(
         <div className="navBar">
             
@@ -13,11 +23,22 @@ function NavBar({theme, toggleTheme}){
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#home" 
+                        onClick={activeTab}
+                        class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about"
+                            onClick={activeTab}
+
+                         class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" 
+                       onClick={activeTab}
+                        class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#work" 
+                        onClick={activeTab}
+                        class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact"
+                        onClick={activeTab}
+                         class="nav__link">Contact</a></li>
                     </ul>
                 </div>
 

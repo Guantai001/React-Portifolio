@@ -10,7 +10,7 @@ function Work() {
         <>
                                            <div id="portfolio">
 
-<div class="container"> 
+<div class="container" id="work"> 
 <h2 class="section-title">My Work</h2>
 <div class="work-list">
   <div class="work">
