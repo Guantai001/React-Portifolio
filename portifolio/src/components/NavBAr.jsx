@@ -1,6 +1,7 @@
 import React from 'react';
+import ReactSwitch from 'react-switch';
 
-function NavBar(){
+function NavBar({theme, toggleTheme}){
     return(
         <div className="navBar">
             
@@ -20,6 +21,11 @@ function NavBar(){
                     </ul>
                 </div>
 
+ 
+ <div className="switch">
+        <label></label>
+      <ReactSwitch onChange={toggleTheme} checked={theme==="dark"}/>
+      </div>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>

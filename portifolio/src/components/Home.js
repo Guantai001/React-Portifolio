@@ -29,7 +29,7 @@ function Home(){
 
     return(
       <>
-      <NavBar/>
+    
        
             <section class="home bd-grid" id="home">
                 <div class="home__data">

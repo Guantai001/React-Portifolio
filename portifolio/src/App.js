@@ -24,19 +24,12 @@ function App() {
 
 
     <div className="App" id={theme}>
-     
-      
+      <NavBar theme= {theme} toggleTheme= {toggleTheme} />
       <Home/>
-      <div className="switch">
-        <label>{theme==='light' ? "Light Mode" : "Dark Mode"}</label>
-      <ReactSwitch  onChange={toggleTheme} checked={theme === 'dark'}/>
-      </div>
-
       <About/>
       <Services/>
       <Work/>
       <Contacts/>
-     
     </div>
     </ThemeContext.Provider>
 
