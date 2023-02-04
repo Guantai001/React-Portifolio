@@ -7,8 +7,7 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contacts from './components/Contacts';
 import { createContext,useState } from 'react';
-import ReactSwitch from "react-switch";
-
+import { BrowserRouter,Navigate , Routes, Route } from 'react-router-dom';
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -24,16 +23,30 @@ function App() {
 
 
     <div className="App" id={theme}>
-      <NavBar theme= {theme} toggleTheme= {toggleTheme} />
-      <Home/>
-      <About/>
-      <Services/>
-      <Work/>
-      <Contacts/>
-    </div>
-    </ThemeContext.Provider>
+ <NavBar theme= {theme} toggleTheme= {toggleTheme} />
+ <Home/>
+ <About/>
+ <Services/>
+ <Work/>
+ <Contacts/>
+</div>
+ </ThemeContext.Provider>
+      
+
 
   );
 }
 
 export default App;
+
+
+
+
+// <NavBar theme= {theme} toggleTheme= {toggleTheme} />
+// <Home/>
+// <About/>
+// <Services/>
+// <Work/>
+// <Contacts/>
+// </div>
+// </ThemeContext.Provider>

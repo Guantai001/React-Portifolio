@@ -1,29 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react'
+import { Link } from "react-scroll";
+import { navLinksdata } from "./index"
 import ReactSwitch from 'react-switch';
 
-function NavBar({theme, toggleTheme}){
-    //when the tab is clicked, it will be active and the others will be inactive
-    const activeTab = (e) => {
-        const navLinks = document.querySelectorAll('.nav__link');
-        navLinks.forEach((link) => {
-            link.classList.remove('active');
-        });
-        e.target.classList.add('active');
-    }
+const NavBar = ({theme, toggleTheme}) => {
+  //style the side menu
 
- 
-    return(
-        <div className="navBar">
-            
+  const [showMenu, setShowMenu]=useState(false)
+  //slide menu function
+
+
+  const activeTab = (e) => {
+
+    const navLinks = document.querySelectorAll('.nav__link');
+    navLinks.forEach((link) => {
+        link.classList.remove('active');
+    });
+    e.target.classList.add('active');
+}
+
+
+  return (
+    <div className="navBar">
         <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Guantai</a>
-                </div>
+        <nav class="nav bd-grid">
+       <div>
+        <a href="#" class="nav__logo">Guantai</a>
+     </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" 
+      <div class="nav__menu" id="nav-menu">
+        <ul  class="nav__list">
+        <li class="nav__item"><a href="#home" 
                         onClick={activeTab}
                         class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about"
@@ -39,21 +46,53 @@ function NavBar({theme, toggleTheme}){
                         <li class="nav__item"><a href="#contact"
                         onClick={activeTab}
                          class="nav__link">Contact</a></li>
+        </ul>
+
+        </div>
+<div className="switch">
+      
+      <ReactSwitch onChange={toggleTheme} checked={theme==="dark"}/>
+      </div>
+   
+
+      <div class="nav__toggle"
+                 id="nav-toggle">
+                    <i class='bx bx-menu'
+                     onClick={() => setShowMenu(!showMenu)}
+                     ></i>
+
+               
+               {/* this is where the slide menu will appear */}
+                <div className={showMenu ? "nav__menu show" : "nav__menu"}>
+                    <ul className="nav__list">
+                        {navLinksdata.map((item, index) => {
+                            return (
+                                <li key={index} className="nav__item">
+                                    <Link
+                                        activeClass="active"
+                                        to={item.link}
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        className="nav__link"
+                                        onClick={() => setShowMenu(!showMenu)}
+                                    >
+                                        {item.title}
+                                    </Link>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
 
- 
- <div className="switch">
-        <label></label>
-      <ReactSwitch onChange={toggleTheme} checked={theme==="dark"}/>
-      </div>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
+        
                 </div>
-            </nav>
-        </header>
-        </div>
-    )
+
+      </nav>
+    </header>
+    </div>
+  );
 }
 
 export default NavBar;

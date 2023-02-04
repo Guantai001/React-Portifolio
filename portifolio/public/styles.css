@@ -115,10 +115,7 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
-.bg-glow{
- /* to display on the right of the screen */
 
-}
 
 .l-header {
   width: 100%;
@@ -140,6 +137,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+/* the slide part */
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -905,14 +903,14 @@ form .btn2{
 
 
 #dark{
-  background-color: #2d2e32;
+  background-color: var(--second-color);
   color: white;
 }
 
 /* NavBAr DarkMode */
 
 #dark .l-header{
-  background-color: #2d2e32;
+  background-color: var(--second-color);
   color:#F7B500;
   
 }
@@ -928,3 +926,5 @@ form .btn2{
 #dark .nav__toggle{
   color:#ffffff;
 }
+
+
