@@ -48,7 +48,7 @@ function Home(){
 </h1>
 
  </div>
-<a href="#" class="button">Contact</a>
+<a href="#contact" class="button">Contact</a>
 </div>
               
 

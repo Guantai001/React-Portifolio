@@ -30,6 +30,7 @@
 }
 
 @media screen and (min-width: 968px) {
+  
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -43,6 +44,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -52,7 +54,11 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+ 
 }
+
+
+
 
 h1, h2, p {
   margin: 0;
@@ -73,6 +79,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 /*===== CLASS CSS ===== */
 .section-title {
@@ -108,15 +115,6 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
-.bd-grick {
-  max-width: 1024px;
-  display: inline-block;
-
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
-}
-
-
 .l-header {
   width: 100%;
   position: fixed;
@@ -142,7 +140,7 @@ img {
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 80%;
+    width: 70%;
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
@@ -213,7 +211,6 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
-  
   text-align: left;
 }
 
@@ -905,13 +902,21 @@ form .btn2{
 #dark{
   background-color: var(--second-color);
   color: white;
+  
 }
+#dark .sectionAll{
+  background-color: var(--second-color);
+  color: white;
+  overflow-x: scroll;
 
+  
+}
 /* NavBAr DarkMode */
 
 #dark .l-header{
   background-color: var(--second-color);
   color:#F7B500;
+  
   
 }
 
@@ -926,5 +931,18 @@ form .btn2{
 #dark .nav__toggle{
   color:#ffffff;
 }
+
+.switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/* dark mode in small screens  min 768 width*/
+@media only screen and (max-width: 767px) {
+
+}
+
 
 

@@ -42,7 +42,7 @@ const sendEmail = (e) => {
       <a href="https://www.linkedin.com/in/guantai-john-paul-a140311b1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://twitter.com/guantaijp/" target="_blank"><i class='fab fa-twitter'></i></a>
       </div>
-      <a href="Guantai+John+PaulRe+_Android (1).pdf" download class="btn btn2"><i class='fas fa-download'></i> Download CV</a>
+      {/* <a href="Guantai+John+PaulRe+_Android (1).pdf" download class="btn btn2"><i class='fas fa-download'></i> Download CV</a> */}
     </div>
 
     

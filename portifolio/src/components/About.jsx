@@ -48,28 +48,41 @@ function About(){
 
                                   <div class="tab-contents active-tab" id="skills">
                                    <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>JavaScript</li>
-                                        <li>React</li>
-                                        <li>Node.js</li>
-                                        <li>Express</li>
+                                        <li> -> HTML5</li>
+                                        <li> -> CSS3</li>
+                                        <li> -> JavaScript</li>
+                                        <li> -> React Js</li>
+                                       
                                    </ul>
 
                                     </div>
                                     
                                     <div class="tab-contents" id="experience">
                                     <ul>
-                                        <li>Software Engineer at First Technology</li>
-                                        <li>Software Engineer at First Technology</li>
-                                        <li>Software Engineer at First Technology</li>
+                                        <li>
+                                        <h5>Freelancer</h5>
+                                            <p>
+                                              Fronted Developer
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h5>safiri Company</h5>
+                                            <p>Android Developer</p>
+                                        </li>
+                                       
                                         </ul>
                                     </div>
 
                                     <div class="tab-contents" id="education">
                                     <ul>
-                                        <li>Moringa School</li>
-                                        <li>Multimedia Uviversity Of Kenya</li>
+                                        <li>
+                                        <h5>Moringa School</h5>
+                                            <p> Sofware Engeneering</p>
+                                            </li>
+                                        <li>
+                                           <h5> Multimedia Uviversity Of Kenya</h5>
+                                            <p> Bachelor of Science in Mathematis and Computer Science</p>
+                                            </li>
 
                                         </ul>
                                     </div>

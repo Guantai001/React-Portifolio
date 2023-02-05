@@ -24,11 +24,13 @@ function App() {
 
     <div className="App" id={theme}>
  <NavBar theme= {theme} toggleTheme= {toggleTheme} />
+ <div className="sectionAll mx-0">
  <Home/>
  <About/>
  <Services/>
  <Work/>
  <Contacts/>
+ </div>
 </div>
  </ThemeContext.Provider>
       
