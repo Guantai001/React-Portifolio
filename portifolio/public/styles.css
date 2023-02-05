@@ -911,7 +911,7 @@ form .btn2{
 #dark .sectionAll{
   background-color: var(--second-color);
   color: white;
-  overflow-x: fixed;
+  overflow-x: scroll;
 
   
 }
