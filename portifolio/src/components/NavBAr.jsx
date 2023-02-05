@@ -49,11 +49,7 @@ const NavBar = ({theme, toggleTheme}) => {
         </ul>
 
         </div>
-<div className="switch">
-      
-      <ReactSwitch onChange={toggleTheme} checked={theme==="dark"}/>
-      </div>
-   
+
 
       <div class="nav__toggle"
                  id="nav-toggle">
@@ -80,9 +76,16 @@ const NavBar = ({theme, toggleTheme}) => {
                                     >
                                         {item.title}
                                     </Link>
+
+
                                 </li>
                             );
                         })}
+                        <div className="switch">
+      
+      <ReactSwitch onChange={toggleTheme} checked={theme==="dark"}/>
+      </div>
+   
                     </ul>
                 </div>
 
