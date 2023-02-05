@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBAr';
 import Home from './components/Home';
@@ -7,7 +6,7 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contacts from './components/Contacts';
 import { createContext,useState } from 'react';
-import { BrowserRouter,Navigate , Routes, Route } from 'react-router-dom';
+
 export const ThemeContext = createContext(null);
 
 function App() {

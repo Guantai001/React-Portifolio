@@ -66,7 +66,7 @@ function About(){
                                             </p>
                                         </li>
                                         <li>
-                                            <h5>safiri Company</h5>
+                                            <h5>Msafiri Company</h5>
                                             <p>Android Developer</p>
                                         </li>
                                        
@@ -93,7 +93,8 @@ function About(){
                                           <div class="about-col-2">
                                         
                                           <h2 class="section-title">About Me</h2>
-                                           <p>I'm a  Software engineer who constantly seeks out innovative solutions to everyday problems. In my four years in this industry, I've honed my analytical thinking and collaboration skills, and I love working with a team. I've also had the opportunity to serve as the software engineer lead for three projects with First Technology.
+                                           <p class="aboutme">
+                                           As a developer in coding websites and mobile applications, I am enthusiastic and passionate about learning and creating things with code. Although I am still early in my journey, I have gained some basic knowledge and experience and am eager to continue expanding my skills, particularly in the areas of HTML, CSS, JavaScript, and Kotlin for Android development.
 
                                              </p>
             
