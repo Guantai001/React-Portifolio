@@ -449,13 +449,12 @@ img {
   .home__img {
     width: 200px;
   }
-  .aboutme{
-    text-align: justify;
-   }
 }
 
 @media screen and (min-width: 576px) {
- 
+  .aboutme{
+   text-align: justify;
+  }
   .home {
     padding: 4rem 0 2rem;
   }
