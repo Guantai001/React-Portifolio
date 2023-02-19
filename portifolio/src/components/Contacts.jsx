@@ -82,7 +82,7 @@ const sendEmail = (e) => {
 
 </div>
 <div class="copyright">
-    <p>© Dev Guantel All rigths reserved</p>
+    <p>© Dev Guantel All rights reserved</p>
 
 </div>
 </div>
