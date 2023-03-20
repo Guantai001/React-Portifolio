@@ -11,7 +11,6 @@ const NavBar = ({theme, toggleTheme}) => {
 
 
   const activeTab = (e) => {
-
     const navLinks = document.querySelectorAll('.nav__link');
     navLinks.forEach((link) => {
         link.classList.remove('active');
@@ -30,22 +29,11 @@ const NavBar = ({theme, toggleTheme}) => {
 
       <div class="nav__menu" id="nav-menu">
         <ul  class="nav__list">
-        <li class="nav__item"><a href="#home" 
-                        onClick={activeTab}
-                        class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about"
-                            onClick={activeTab}
-
-                         class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" 
-                       onClick={activeTab}
-                        class="nav__link">Services</a></li>
-                        <li class="nav__item"><a href="#work" 
-                        onClick={activeTab}
-                        class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact"
-                        onClick={activeTab}
-                         class="nav__link">Contact</a></li>
+        <li class="nav__item"><a href="#home" onClick={activeTab}class="nav__link active">Home</a></li>
+        <li class="nav__item"><a href="#about"onClick={activeTab}class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#skills" onClick={activeTab}class="nav__link">Services</a></li>
+        <li class="nav__item"><a href="#work" onClick={activeTab}class="nav__link">Work</a></li>
+        <li class="nav__item"><a href="#contact"onClick={activeTab}class="nav__link">Contact</a></li>
         </ul>
 
         </div>
