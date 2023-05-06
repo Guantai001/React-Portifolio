@@ -68,6 +68,7 @@ const sendEmail = (e) => {
            name="message" 
            rows="4" 
            placeholder="Your Message"
+            required
            ></textarea>
        <button type="submit"
         class="btn btn2">
