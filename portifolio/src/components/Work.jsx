@@ -72,7 +72,7 @@ function Work() {
 
 </div>
 </div>
-<a href="https://github.com/Guantai001" target="_blank" class="btn">See more</a>
+<a href="https://farmfrontend.vercel.app/login" target="_blank" class="btn">See more</a>
 </div>
 </div>
         </>
