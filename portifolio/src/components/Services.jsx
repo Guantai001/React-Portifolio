@@ -12,7 +12,7 @@ function Services() {
                     <div>
                       <i class="fa-solid fa-code"></i>
                             <h2>Web Development</h2>
-                            <p> I create the layout and design of a website. I use design programs to create visual elements. I design a site that is intuitive and easy for visitors to navigate.</p>
+                            <p> I create the layout and design of a full website. I use design programs to create visual elements. I build a site that is intuitive and easy for visitors to navigate.</p>
                          
                     </div>
                     <div>

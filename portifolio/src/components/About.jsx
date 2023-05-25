@@ -51,8 +51,10 @@ function About(){
                                         <li> -> HTML5</li>
                                         <li> -> CSS3</li>
                                         <li> -> JavaScript</li>
+                                        <li> -> TypeScript</li>
                                         <li> -> React Js</li>
                                         <li> -> Ruby on Rails</li>
+                                        <li> -> Postgress</li>
                                        
                                    </ul>
 
