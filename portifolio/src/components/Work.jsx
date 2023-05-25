@@ -3,7 +3,8 @@ import photos from './photos/denco.png';
 
 import photo from './photos/epic.png';
 
-import phot from './photos/work-3.png';
+import phot from './photos/farm.png';
+
 
 function Work() {
     return(
@@ -62,9 +63,10 @@ function Work() {
          src={phot}
          alt="work3" />
         <div class="layer">
-        <h3>Tip Time</h3>
-        <p>Are you in business and you alway in your calculator trying yo figure how much discount
-                        you will give to your customer? This app will help you to calculate the tip and the total amount to pay.</p>
+        <h3>Farm App</h3>
+        <p>The Farm is an web app that enables a farmer to track Dairy And Tea track produce.
+
+</p>
         <a href="hhttps://github.com/Guantai001/TipTime" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
     </div>
 
