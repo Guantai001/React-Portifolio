@@ -66,12 +66,12 @@ function Work() {
                                 <p>The Farm is an web app that enables a farmer to track Dairy And Tea track produce.
 
                                 </p>
-                                <a href="hhttps://github.com/Guantai001/TipTime" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://farmfrontend.vercel.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
 
                         </div>
                     </div>
-                    <a href="https://farmfrontend.vercel.app/login" target="_blank" class="btn">See more</a>
+                    <a href="https://github.com/Guantai001" target="_blank" class="btn">See more</a>
                 </div>
             </div>
         </>
