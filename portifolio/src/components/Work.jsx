@@ -1,9 +1,8 @@
 import React from "react";
-import photos from './photos/denco.png';
-
+import photos from './photos/optica.png';
 import photo from './photos/epic.png';
-
 import phot from './photos/farm.png';
+
 
 
 function Work() {
@@ -29,10 +28,10 @@ function Work() {
                             />
 
                             <div class="layer">
-                                <h3>Denco Movers</h3>
-                                <p>It's a Web App that enables users to
-                                    book moving services.</p>
-                                <a href="https://denco-mover.vercel.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <h3>Optica Glass Corner</h3>
+                                <p>
+                                    The project is a web app that enables users to see eye glasses and book appointments.</p>
+                                <a href="https://optica-frontend-nu.vercel.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
 
