@@ -55,7 +55,7 @@ function Home(){
              <div class="home__social">
                     <a href="https://www.linkedin.com/in/guantai-john-paul-a140311b1/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="https://twitter.com/guantaijp/" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://github.com/Guantai001" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/Guantaijp" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">
