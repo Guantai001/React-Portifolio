@@ -9,7 +9,7 @@ function Home(){
 
     useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ["Android Developer", "Full-Stack Developer"], // Strings to display
+        strings: [ "Full-Stack Developer."], // Strings to display
         // Speed settings, try diffrent values untill you get good results
         startDelay: 300,
         typeSpeed: 100,
@@ -55,7 +55,7 @@ function Home(){
              <div class="home__social">
                     <a href="https://www.linkedin.com/in/guantai-john-paul-a140311b1/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="https://twitter.com/guantaijp/" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://github.com/Guantai001" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/Guantaijp" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">

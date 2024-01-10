@@ -51,8 +51,12 @@ function About(){
                                         <li> -> HTML5</li>
                                         <li> -> CSS3</li>
                                         <li> -> JavaScript</li>
+                                        <li> -> TypeScript</li>
                                         <li> -> React Js</li>
+                                        <li> -> Node Js</li>
                                         <li> -> Ruby on Rails</li>
+                                        <li> -> Mongo Db</li>
+                                        <li> -> Postgress</li>
                                        
                                    </ul>
 
@@ -95,8 +99,7 @@ function About(){
                                         
                                           <h2 class="section-title">About Me</h2>
                                            <p class="aboutme">
-                                           As a developer in coding websites and mobile applications, I am enthusiastic and passionate about learning and creating things with code. Although I am still early in my journey, I have gained some basic knowledge and experience and am eager to continue expanding my skills, particularly in the areas of HTML, CSS, JavaScript, React JS, Ruby on Rails and Kotlin for Android development.
-
+                                           As a developer in coding websites and mobile applications, I am enthusiastic and passionate about learning and creating things with code. Although I am still early in my journey, I have gained some basic knowledge and experience and am eager to continue expanding my skills, particularly in the areas of HTML, CSS, JavaScript, React JS, Node Js, Express Js and Ruby on Rails.
                                              </p>
             
                                         </div>

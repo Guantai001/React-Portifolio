@@ -38,7 +38,7 @@ const sendEmail = (e) => {
       <p><i class="fa-sharp fa-solid fa fa-phone" aria-hidden="true"></i> +254795070535</p>
       <div class="social-icons">
 
-      <a href="https://github.com/Guantai001" target="_blank"><i class='fab fa-github'></i></a>
+      <a href="https://github.com/Guantaijp" target="_blank"><i class='fab fa-github'></i></a>
       <a href="https://www.linkedin.com/in/guantai-john-paul-a140311b1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://twitter.com/guantaijp/" target="_blank"><i class='fab fa-twitter'></i></a>
       </div>
@@ -68,6 +68,7 @@ const sendEmail = (e) => {
            name="message" 
            rows="4" 
            placeholder="Your Message"
+            required
            ></textarea>
        <button type="submit"
         class="btn btn2">
